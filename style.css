@@ -24,6 +24,7 @@ header {
   font-size: 30px;
   font-weight: 600;
 }
+
 nav {
   color: #894cc5;
   font-size: 20px;
@@ -55,7 +56,7 @@ nav {
   padding: 15px 0;
 }
 
-#social button{
+#social button {
   color: darkcyan;
   border: none;
   outline: none;
@@ -67,6 +68,5 @@ nav {
 }
 
 section {
-  background-image: url(./bg.jpg);
-    
+  background-image: url(./bg.jpg);  
 }
