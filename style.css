@@ -45,7 +45,7 @@ nav {
 }
 
 #headline h1 {
-  font-family: Poppins;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -62,7 +62,7 @@ nav {
 
 #connect {
   text-transform: capitalize;
-  color: #7F8CFF; ;
+  color: #7F8cff;
   padding: 15px 0;
 }
 
@@ -70,7 +70,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  color: #505F79;
+  color: #505f79;
   border: none;
   outline: none;
   cursor: pointer;
@@ -79,7 +79,6 @@ nav {
   font-size: 18px;
   list-style: none;
   size: 4px;
-
 }
 
 li {
