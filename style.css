@@ -68,11 +68,13 @@ nav {
   padding: 15px 0;
 }
 
-#social li {
-  color: darkcyan;
+#social ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #505F79;
   border: none;
   outline: none;
-  background: #505F79;
   cursor: pointer;
   width: fit-content;
   padding: 0 7px;
@@ -81,5 +83,7 @@ nav {
   size: 4px;
   
 }
-
+li {
+ margin-left: 10px;
+}
 
