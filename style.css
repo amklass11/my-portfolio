@@ -52,13 +52,12 @@ nav {
   line-height: 52px;
   display: flex;
   align-items: center;
-  font-size: 40px;
   padding: 10px 0;
 }
 
 #headline p {
-    color: black;
-    line-height: 24px;
+  color: black;
+  line-height: 24px;
 }
 
 #connect {
@@ -80,8 +79,9 @@ nav {
   font-size: 18px;
   list-style: none;
   size: 4px;
-  
+
 }
+
 li {
   margin-left: 10px;
 }
@@ -89,3 +89,4 @@ li {
 a:hover {
   color: lightgrey;
 }
+return
