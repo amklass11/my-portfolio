@@ -62,7 +62,7 @@ nav {
 
 #connect {
   text-transform: capitalize;
-  color: #7F8cff;
+  color: #7f8cff;
   padding: 15px 0;
 }
 
@@ -78,7 +78,6 @@ nav {
   padding: 0 7px;
   font-size: 18px;
   list-style: none;
-  size: 4px;
 }
 
 li {
