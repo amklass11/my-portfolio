@@ -6,6 +6,7 @@
 
 body{
     font-family: sans-serif;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fwhite-and-purple-illustration-minimalism-arrows-design-purple-white-wallpaper-198497&psig=AOvVaw1Y5n3YDFrEBBDJ1Q8YJjA0&ust=1645170407442000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNCK-syfhvYCFQAAAAAdAAAAABAE);
 }
 
 header{
@@ -39,7 +40,7 @@ nav{
 }
 
 #headline h2{
-    color: #894cc5;
+    color: #d999eb;
     font-size: 40px;
     padding: 10px 0;
 }
@@ -65,3 +66,7 @@ nav{
     font-size: 18px;
 }
 
+section  {
+    background-image: url(./bg.jpg);
+    
+}
