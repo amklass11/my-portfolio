@@ -5,10 +5,10 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   font-family: sans-serif;
-  background-image: url(./bg9.png)
+  background-image: url(./bg9.png);
 }
 
 header {
@@ -17,7 +17,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  
 }
 
 #logo {
@@ -25,13 +24,13 @@ header {
   width: 76px;
   left: 12px;
   top: 10px;
-  border-radius: nullpx;
+  border-radius: 2px;
   font-weight: bold;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 nav {
-  color: #6070FF;
+  color: #6070ff;
   font-size: 20px;
 }
 
