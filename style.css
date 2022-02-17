@@ -71,7 +71,7 @@ nav {
 #social ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   color: #505F79;
   border: none;
   outline: none;
@@ -84,6 +84,9 @@ nav {
   
 }
 li {
- margin-left: 10px;
+  margin-left: 10px;
 }
 
+a:hover {
+    color: lightgrey;
+  }
