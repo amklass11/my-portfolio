@@ -5,8 +5,10 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
   font-family: sans-serif;
-  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fwhite-and-purple-illustration-minimalism-arrows-design-purple-white-wallpaper-198497&psig=AOvVaw1Y5n3YDFrEBBDJ1Q8YJjA0&ust=1645170407442000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNCK-syfhvYCFQAAAAAdAAAAABAE);
+  background-image: url(./bg9.png)
 }
 
 header {
@@ -15,18 +17,21 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  box-shadow: 0 5px 10px 10px #894cc510;
+  
 }
 
 #logo {
-  color: #894cc5;
-  width: fit-content;
-  font-size: 30px;
-  font-weight: 600;
+  height: 20px;
+  width: 76px;
+  left: 12px;
+  top: 10px;
+  border-radius: nullpx;
+  font-weight: bold;
+  color: #6070FF;
 }
 
 nav {
-  color: #894cc5;
+  color: #6070FF;
   font-size: 20px;
 }
 
@@ -40,33 +45,41 @@ nav {
   text-align: left;
 }
 
-#headline h2 {
-  color: #d999eb;
+#headline h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
   font-size: 40px;
   padding: 10px 0;
 }
 
 #headline p {
-  color: #000070;
+    color: black;
+    line-height: 24px;
 }
 
 #connect {
   text-transform: capitalize;
-  color: #00c7c7;
+  color: #7F8CFF; ;
   padding: 15px 0;
 }
 
-#social button {
+#social li {
   color: darkcyan;
   border: none;
   outline: none;
-  background: none;
+  background: #505F79;
   cursor: pointer;
   width: fit-content;
   padding: 0 7px;
   font-size: 18px;
+  list-style: none;
+  size: 4px;
+  
 }
 
-section {
-  background-image: url(./bg.jpg);
-}
+
