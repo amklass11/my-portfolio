@@ -62,7 +62,7 @@ nav {
   line-height: 24px;
 }
 
-#connect {
+.connect {
   text-transform: capitalize;
   color: #7f8cff;
   padding: 15px 0;
@@ -73,7 +73,7 @@ nav {
   flex-direction: row;
 }
 
-#social ul {
+.social ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -216,7 +216,7 @@ img {
   justify-content: center;
 }
 
-#items {
+.items {
   border-radius: 8px;
   display: flex;
   flex-direction: row;
@@ -226,12 +226,12 @@ img {
   margin-top: 10px;
 }
 
-#move {
+.move {
   margin-left: 20px;
   color: #253858;
 }
 
-#final {
+.final {
   margin: 20px;
   display: flex;
   flex-direction: row;
