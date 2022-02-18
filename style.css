@@ -93,7 +93,7 @@ a {
 a:hover {
   color: lightgrey;
 }
-img{
+img {
   display: block;
   width: 100%;
   height: auto;
@@ -118,6 +118,7 @@ img{
   margin: 10px auto;
   padding: 10px;
 }
+
 .card-img {
   background: #fafafa;
   border-radius: 10px;
@@ -125,12 +126,14 @@ img{
   height: auto;
   min-height: 100px;
 }
+
 .card h2 {
   font-size: 32px;
   text-transform: capitalize;
   margin: 10px 0;
   font-weight: 700;
 }
+
 .card-list {
   display: flex;
   flex-direction: row;
@@ -138,6 +141,7 @@ img{
   justify-content: flex-start;
   padding: 10px 0;
 }
+
 .card-list h3{
   text-transform: uppercase;
   font-weight: bold;
@@ -157,17 +161,17 @@ img{
   margin: 10px 0;
 }
 
-.tags span{
-   display: inline-block;
-   padding: 5px;
-   background: #00007020;
-   font-size: 12px;
-   border-radius: 5px;
-   font-weight: light;
-   margin: 5px 10px;
-   margin-left: 0;
-   color: #6070ff;
-   border-block-color: #6070ff;
+.tags span {
+  display: inline-block;
+  padding: 5px;
+  background: #00007020;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: light;
+  margin: 5px 10px;
+  margin-left: 0;
+  color: #6070ff;
+  border-block-color: #6070ff;
 }
 
 .button button{
@@ -179,6 +183,7 @@ img{
   color: #396df2;
   border-block-color: #6070ff;
 }
+
 .button{
   margin: 20px 0;
   margin-bottom: 10px;
