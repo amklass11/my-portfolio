@@ -68,6 +68,11 @@ nav {
   padding: 15px 0;
 }
 
+.card-list ul {
+    display: flex;
+    flex-direction: row;
+  }
+
 #social ul {
   display: flex;
   flex-direction: row;
@@ -142,14 +147,9 @@ img {
   padding: 10px 0;
 }
 
-.card-list h3{
+.card-list h3 {
   text-transform: uppercase;
   font-weight: bold;
-}
-
-.card-list ul {
-  display: flex;
-  flex-direction: row;
 }
 
 .card-list ul li {
@@ -167,7 +167,7 @@ img {
   background: #00007020;
   font-size: 12px;
   border-radius: 5px;
-  font-weight: light;
+  font-weight: 100;
   margin: 5px 10px;
   margin-left: 0;
   color: #6070ff;
@@ -197,11 +197,10 @@ img {
   align-items: flex-start;
   justify-content: flex-start;
   text-align: left;
-
 }
+
 #abou {
   font-weight: 800;   
-
 }
 
 #lang  {
@@ -215,8 +214,6 @@ img {
   margin: 20px;
   border-radius: 9px;
   justify-content: center;
-  
-
 }
 #items {
   border-radius: 8px;
@@ -246,6 +243,7 @@ img {
   border-color: #DFE1E6;
   font-weight: 500;
 }
+
 #mve {
   margin-left: 50%;
   margin-bottom: 10px;
