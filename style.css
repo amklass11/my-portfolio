@@ -174,7 +174,7 @@ img {
   border-block-color: #6070ff;
 }
 
-.button button{
+.button button {
   background: none;
   border-radius: 5px;
   border: 2px solid #000070;
@@ -184,7 +184,7 @@ img {
   border-block-color: #6070ff;
 }
 
-.button{
+.button {
   margin: 20px 0;
   margin-bottom: 10px;
 }
@@ -231,10 +231,12 @@ img {
   font-weight: 700;
   margin-top: 10px;
 }
-#move{
-    margin-left: 20px;
-    color: #253858;
+
+#move {
+  margin-left: 20px;
+  color: #253858;
 }
+
 #final {
   margin: 20px;
   display: flex;
@@ -244,7 +246,7 @@ img {
   border-color: #DFE1E6;
   font-weight: 500;
 }
-#mve{
+#mve {
   margin-left: 50%;
   margin-bottom: 10px;
   width: 20px;
