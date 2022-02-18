@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   font-family: sans-serif;
   background-image: url(./bg2.png);
+  background-repeat: no-repeat;
 }
 
 header {
