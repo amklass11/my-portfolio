@@ -155,9 +155,8 @@ img {
 }
 
 .tags li {
-  display: flex;
-  flex-direction: row;
   display: inline-block;
+  align-items: center;
   padding: 5px;
   background: #00007020;
   font-size: 12px;
@@ -177,7 +176,7 @@ img {
 
 .desc {
   margin: 10px 0;
-  color:  #344563;
+  color: #344563;
 }
 
 .button button {
@@ -196,7 +195,7 @@ button:hover {
 }
 
 button:disabled {
-  color: #5E6C84;
+  color: #5E6c84;
   background: whitesmoke;
 }
 
