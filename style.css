@@ -10,6 +10,7 @@ body {
   font-family: sans-serif;
   background-image: url(./bg2.png);
   background-repeat: no-repeat;
+  font-family: poppins;
 }
 
 header {
@@ -123,6 +124,7 @@ img {
   width: 90%;
   margin: 10px auto;
   padding: 10px;
+  color: #344563;
 }
 
 .card-img {
@@ -156,13 +158,18 @@ img {
 .card-list ul li {
   margin-left: 25px;
   padding-left: 0;
+  color: #344563;;
 }
 
 .desc {
   margin: 10px 0;
+  color:  #344563;
+
 }
 
-.tags span {
+.tags li {
+  display: flex;
+  flex-direction: row;
   display: inline-block;
   padding: 5px;
   background: #00007020;
@@ -183,6 +190,16 @@ img {
   font-weight: bold;
   color: #396df2;
   border-block-color: #6070ff;
+}
+
+button:hover {
+  background: #6070ff;
+  color: beige;
+}
+
+button:disabled {
+  color: #5E6C84;
+  background: whitesmoke;
 }
 
 .button {
