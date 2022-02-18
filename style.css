@@ -7,10 +7,9 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: sans-serif;
   background-image: url(./bg2.png);
   background-repeat: no-repeat;
-  font-family: poppins;
+  font-family: Poppins;
 }
 
 header {
@@ -155,18 +154,6 @@ img {
   font-weight: bold;
 }
 
-.card-list ul li {
-  margin-left: 25px;
-  padding-left: 0;
-  color: #344563;;
-}
-
-.desc {
-  margin: 10px 0;
-  color:  #344563;
-
-}
-
 .tags li {
   display: flex;
   flex-direction: row;
@@ -180,6 +167,17 @@ img {
   margin-left: 0;
   color: #6070ff;
   border-block-color: #6070ff;
+}
+
+.card-list ul li {
+  margin-left: 25px;
+  padding-left: 0;
+  color: #344563;
+}
+
+.desc {
+  margin: 10px 0;
+  color:  #344563;
 }
 
 .button button {
