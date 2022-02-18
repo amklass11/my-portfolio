@@ -69,9 +69,9 @@ nav {
 }
 
 .card-list ul {
-    display: flex;
-    flex-direction: row;
-  }
+  display: flex;
+  flex-direction: row;
+}
 
 #social ul {
   display: flex;
@@ -200,7 +200,7 @@ img {
 }
 
 #abou {
-  font-weight: 800;   
+  font-weight: 800;
 }
 
 #lang  {
@@ -215,15 +215,12 @@ img {
   border-radius: 9px;
   justify-content: center;
 }
+
 #items {
   border-radius: 8px;
   display: flex;
   flex-direction: row;
-  flex-grow: 0;
-  margin: 12px 0px;
-  width: 2rem;
   align-items: center;
-  justify-content: space-between 5px;
   margin: 10px;
   font-weight: 700;
   margin-top: 10px;
@@ -240,7 +237,7 @@ img {
   flex-direction: row;
   border-bottom: solid 1px;
   padding-bottom: 10px;
-  border-color: #DFE1E6;
+  border-color: #dfe1e6;
   font-weight: 500;
 }
 
