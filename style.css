@@ -84,9 +84,10 @@ li {
   margin-left: 10px;
 }
 
-a{
-  color:#505f79;
+a {
+  color: #505f79;
 }
+
 a:hover {
   color: lightgrey;
 }
