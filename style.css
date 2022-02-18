@@ -93,6 +93,7 @@ a {
 a:hover {
   color: lightgrey;
 }
+
 img {
   display: block;
   width: 100%;
@@ -102,7 +103,6 @@ img {
 
 #work {
   display: grid;
-  grid-template-columns: repeat(auto, minmax(300px, 1fr));
   grid-template-rows: auto;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
