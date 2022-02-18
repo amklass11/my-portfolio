@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
-  background-image: url(./bg9.png);
+  background-image: url(./bg2.png);
 }
 
 header {
@@ -84,6 +84,9 @@ li {
   margin-left: 10px;
 }
 
+a{
+  color:#505f79;
+}
 a:hover {
   color: lightgrey;
 }
