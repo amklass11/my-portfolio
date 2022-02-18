@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   background-image: url(./bg2.png);
   background-repeat: no-repeat;
-  font-family:poppins ;
+  font-family: sans-serif;
 }
 
 header {
@@ -195,7 +195,7 @@ button:hover {
 }
 
 button:disabled {
-  color: #5E6c84;
+  color: #5e6c84;
   background: whitesmoke;
 }
 
