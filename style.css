@@ -88,6 +88,7 @@ nav {
 }
 
 li {
+  list-style-type: none;
   margin-left: 10px;
 }
 
