@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   background-image: url(./bg2.png);
   background-repeat: no-repeat;
-  font-family: Poppins;
+  font-family:poppins ;
 }
 
 header {
