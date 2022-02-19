@@ -272,7 +272,7 @@ button:disabled {
   height: 20px;
 }
 
- button:focus {
+button:focus {
   background-color: #2230d2;
-  color: #ffffff;
- }
+  color: #fff;
+}
