@@ -727,6 +727,7 @@ textarea {
   vertical-align: top;
   height: 5em;
 }
+
 #submit {
   background: white;
   display: flex;
@@ -734,5 +735,4 @@ textarea {
   align-items: center;
   margin-left: 12px;
   border-radius: 8px;
->>>>>>> fb564b659abac3bcab2b31fdbef280ba828d9205
 }
