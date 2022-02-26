@@ -77,14 +77,13 @@ ul {
   float: left;
 }
 
+form ul {
+  list-style: none;
+}
 
 .card-list ul {
   display: flex;
   flex-direction: row;
-}
-
-form ul {
-  list-style: none;
 }
 
 .social ul {
@@ -126,6 +125,10 @@ img {
   grid-template-rows: auto;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+}
+
+form li + li {
+  margin-top: 1em;
 }
 
 .card {
@@ -330,10 +333,6 @@ form {
   margin: 0 auto;
   width: 400px;
   padding: 1em;
-}
-
-form li + li {
-  margin-top: 1em;
 }
 
 label {
