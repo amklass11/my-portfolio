@@ -307,6 +307,7 @@ button:focus {
   font-weight: 700;
   margin-right: 40px;
   color: white;
+  font-size: larger;
 }
 
 #para {
