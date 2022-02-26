@@ -70,6 +70,17 @@ nav {
   padding: 15px 0;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+form ul {
+  list-style: none;
+}
+
 .card-list ul {
   display: flex;
   flex-direction: row;
@@ -114,6 +125,10 @@ img {
   grid-template-rows: auto;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+}
+
+form li + li {
+  margin-top: 1em;
 }
 
 .card {
@@ -277,4 +292,78 @@ button:disabled {
 button:focus {
   background-color: #2230d2;
   color: #fff;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  background: #6070ff;
+  background-image: url(./cc.png);
+  margin-bottom: 2px;
+  border-radius: 100px 0 0 0;
+}
+
+.header {
+  font-weight: 700;
+  margin-right: 40px;
+  color: white;
+  font-size: larger;
+}
+
+#para {
+  color: white;
+  margin: 40px;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  background: #6070ff;
+  background-image: url(./cc.png);
+  border-radius: 100px 0 0 0;
+  padding: 70px;
+  text-align: center;
+  row-gap: 10px;
+  justify-content: flex-start;
+  width: fit-content;
+  background-size: auto;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+input,
+textarea {
+  width: 250px;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+#submit {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 12px;
+  border-radius: 8px;
 }
